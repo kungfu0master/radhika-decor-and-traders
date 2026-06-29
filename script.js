@@ -254,13 +254,19 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "New UV Marble Sheets",
             path: "assets/uv_sheets_new/",
             sliderId: "uvNewSlider"
+        },
+        vertical_garden: {
+            title: "Vertical Garden Mats",
+            path: "assets/vertical_garden/",
+            sliderId: "vgSlider"
         }
     };
 
     const sliderIndices = {
         cbc_sheets: 0,
         pu_feather: 0,
-        uv_sheets_new: 0
+        uv_sheets_new: 0,
+        vertical_garden: 0
     };
 
     // Render Section Slider
